@@ -13,3 +13,69 @@ body {
     max-width: 800px;
     margin: auto;
 }
+.container {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}     
+.book-profile {
+    display: flex;
+    gap: 200px;
+    align-items: space-around;
+}
+.book-profile a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+   
+}
+.book-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.book-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.book-description {
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+}
+.book-price {
+   
+    min-width: 60px;
+    text-align: right;
+    font-weight: bold;
+    color: #e8491d;
+}
+.book-image {
+    max-width: 200px;
+    display: block;
+    border-radius: 5px;
+    height: 100px;
+   
+    
+}
+.book-description {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+}
+
